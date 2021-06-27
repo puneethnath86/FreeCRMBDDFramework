@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:/Users/punath/Documents/Eclipse Workspace/NaveenJun/JavaPrac/FreeCRMBDDFramework/src/main/java/Features/createContacts.feature",
+		features = "C:/Users/punath/Documents/Eclipse Workspace/NaveenJun/JavaPrac/FreeCRMBDDFramework/src/main/java/Features/dealsMap.feature",
 		glue = {"stepDefinitions"},
 		format= {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"},
 		monochrome = true,

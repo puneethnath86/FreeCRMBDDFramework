@@ -46,7 +46,7 @@ public class BrowserUtils
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		String bgcolor = ele.getCssValue("backgroundColour");
 //		Flash 10 times
-		for(int i=0;i<=10;i++) {
+		for(int i=0;i<=5;i++) {
 			changeColor("rgb(200,0,0)", ele);
 			changeColor(bgcolor, ele);
 		}
